@@ -38,9 +38,8 @@ To satisfy the problem's constraints, the solution includes input validation ste
 
 ---
 
-## How to Run Tests with Jest
-
-### **Using Node.js**
+## How to Run Tests with Jest - https://jestjs.io/docs/getting-started
+### **Using npm**
 1. Install Jest if not already installed:
    ```bash
    npm install jest --save-dev
