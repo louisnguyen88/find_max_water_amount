@@ -9,7 +9,7 @@ Given an integer array `height` of length `n`, there are `n` vertical lines draw
 3. `0 <= height[i] <= 104`
 
 ## Approach
-### **Optimal Solution: Two-Pointer Method**
+### **Two-Pointer Method**
 The two-pointer method is used to solve this problem with a time complexity of \(O(n)\) and space complexity of \(O(1)\). This approach works by keeping two pointers, one at the beginning and one at the end of the array, and moving them toward each other while calculating the maximum possible area.
 
 #### Time Complexity
@@ -22,7 +22,7 @@ The two-pointer method is used to solve this problem with a time complexity of \
 
 ## Input Validation
 To satisfy the problem's constraints, the solution includes input validation steps:
-1. Ensure the length of the array `height` is between 2 and 10.
+1. Ensure the `height` array's length  is between 2 and 10.
 2. Ensure all elements in the `height` array are between 0 and 104.
 3. Throw appropriate errors if the input fails validation.
 
