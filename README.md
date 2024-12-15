@@ -1,4 +1,4 @@
-# Max Water Container App
+# Find Max Water Container App
 
 ## Problem Statement
 Given an integer array `height` of length `n`, there are `n` vertical lines drawn such that the two endpoints of the `i-th` line are `(i, 0)` and `(i, height[i])`. We need to find two lines that, together with the x-axis, form a container that can store the most water. The goal is to return the maximum amount of water a container can store.
